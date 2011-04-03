@@ -1,0 +1,11 @@
+Project: emacs.d
+
+This is my personal emacs configuration and script collection. 
+
+content:
+
+init.el		-	The base configuration file. This is the alternative configuration to ~/.emacs.
+auto-save-list	-	Emacs managed directory for autosaved session informations.
+
+
+.. more to come.
