@@ -23,6 +23,10 @@
 			  "~/.emacs.d/lisp/packages")
 			load-path))
 
+;; recursively add directories to load-path
+(require 'my-subdirs)
+(add-subdirs-to-load-path "~/.emacs.d/lisp")
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Keymap
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -36,9 +40,13 @@
 ;; open eshell buffer
 (global-set-key (kbd "M-RET") 'eshell)
 
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; load package specific configuration
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Info
 (require 'info-config)
+
+;; CEDET
+;; (require 'cedet-config)
