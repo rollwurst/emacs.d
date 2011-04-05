@@ -14,3 +14,9 @@
 ;; user defined projects will be declared at the end of the file
 (global-ede-mode t)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; my projects
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(ede-cpp-root-project "isis" :file "~/files/programming/isis/README"
+		      :name "ISIS")

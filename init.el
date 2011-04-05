@@ -45,8 +45,15 @@
 ;; load package specific configuration
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; config file tools
+(autoload 'edit-config "config.el" 
+  "Creates a new configuration file in
+~/.emacs.d/lisp/config. The file will be named '<name>-config.el'
+and will provide a symbol called '<name>-config." t)
+
 ;; Info
 (require 'info-config)
 
 ;; CEDET
-;; (require 'cedet-config)
+(require 'cedet-config)
+
