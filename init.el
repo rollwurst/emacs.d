@@ -57,3 +57,5 @@ and will provide a symbol called '<name>-config." t)
 ;; CEDET
 (require 'cedet-config)
 
+;; Org Mode
+(require 'org-config)
