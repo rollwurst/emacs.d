@@ -18,5 +18,6 @@
 ;; my projects
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(ede-cpp-root-project "isis" :file "~/files/programming/isis/README"
-		      :name "ISIS")
+(if (file-exists-p "~/files/programming/isis/README")
+    (ede-cpp-root-project "isis" :file "~/files/programming/isis/README"
+			  :name "ISIS"))

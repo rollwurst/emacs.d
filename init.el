@@ -39,7 +39,11 @@
 (global-set-key (kbd "C-x p") 'find-file-at-point)
 ;; open eshell buffer
 (global-set-key (kbd "M-RET") 'eshell)
-
+;; enable window movement similar to vi
+(global-set-key (kbd "M-H") 'windmove-left)
+(global-set-key (kbd "M-J") 'windmove-down)
+(global-set-key (kbd "M-K") 'windmove-up)
+(global-set-key (kbd "M-L") 'windmove-right)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; load package specific configuration

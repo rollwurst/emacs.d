@@ -7,8 +7,13 @@ This is my personal emacs configuration and script collection.
 
 content:
 
-| init.el        | The base configuration file. This is the alternative configuration to ~/.emacs. |
-| auto-save-list | Emacs managed directory for autosaved session informations.                     |
-| tramp          | auto-generated, connection history from tramp                           |
+| README            | this file                                                                       |
+| init.el           | The base configuration file. This is the alternative configuration to ~/.emacs. |
+| auto-save-list    | Emacs managed directory for autosaved session informations.                     |
+| tramp             | auto-generated, connection history from tramp                                   |
+| ede-projects.el   | auto-generated, managed by EDE                                                  |
+| .org-id-locations | org-mode; stores task IDs and associated files                                  |
+| lisp              | elisp code                                                                      |
+| lisp/config       | personal configuration files                  |
 
 .. more to come.
