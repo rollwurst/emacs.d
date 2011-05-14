@@ -14,6 +14,6 @@ content:
 | ede-projects.el   | auto-generated, managed by EDE                                                  |
 | .org-id-locations | org-mode; stores task IDs and associated files                                  |
 | lisp              | elisp code                                                                      |
-| lisp/config       | personal configuration files                  |
+| lisp/config       | personal configuration files                                                    |
 
-.. more to come.
+
