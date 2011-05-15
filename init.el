@@ -18,9 +18,7 @@
  )
 
 ;; adjust load path
-(setq load-path (append '("~/.emacs.d/lisp" 
-			  "~/.emacs.d/lisp/config"
-			  "~/.emacs.d/lisp/packages")
+(setq load-path (append '("~/.emacs.d/lisp")
 			load-path))
 
 ;; recursively add directories to load-path
