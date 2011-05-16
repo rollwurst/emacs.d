@@ -59,3 +59,6 @@ and will provide a symbol called '<name>-config." t)
 
 ;; Org Mode
 (require 'org-config)
+
+;; Eshell Mode
+(require 'eshell-config)
