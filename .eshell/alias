@@ -1,0 +1,3 @@
+alias clean rm *.~
+alias e find-file-other-window $1
+alias v find-file-read-only-other-window $1
