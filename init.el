@@ -18,9 +18,7 @@
  )
 
 ;; adjust load path
-(setq load-path (append '("~/.emacs.d/lisp" 
-			  "~/.emacs.d/lisp/config"
-			  "~/.emacs.d/lisp/packages")
+(setq load-path (append '("~/.emacs.d/lisp")
 			load-path))
 
 ;; recursively add directories to load-path
@@ -39,7 +37,11 @@
 (global-set-key (kbd "C-x p") 'find-file-at-point)
 ;; open eshell buffer
 (global-set-key (kbd "M-RET") 'eshell)
-
+;; enable window movement similar to vi
+(global-set-key (kbd "M-H") 'windmove-left)
+(global-set-key (kbd "M-J") 'windmove-down)
+(global-set-key (kbd "M-K") 'windmove-up)
+(global-set-key (kbd "M-L") 'windmove-right)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; load package specific configuration
@@ -62,3 +64,7 @@ and will provide a symbol called '<name>-config." t)
 
 ;; Eshell Mode
 (require 'eshell-config)
+
+;; Superior Lisp Interaction Mode for Emacs
+(require 'slime-config)
+
