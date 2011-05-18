@@ -68,3 +68,5 @@ and will provide a symbol called '<name>-config." t)
 ;; Superior Lisp Interaction Mode for Emacs
 (require 'slime-config)
 
+;; Magit Git frontend
+(require 'magit-config)

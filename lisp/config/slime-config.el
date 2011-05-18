@@ -5,8 +5,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (setq inferior-lisp-program "/usr/bin/sbcl")
-;; condition load
-(when (require 'slime-autoloads "" t)
+;; conditional load
+(when (require 'slime-autoloads nil t)
   (slime-setup)
 
   ;; add file extension '*.cl'
