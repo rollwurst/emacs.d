@@ -30,3 +30,6 @@
 ;; configure Org-remember mode
 (org-remember-insinuate)
 (define-key global-map "\C-cr" 'org-remember)
+
+;; load hyperlink extention --> manpage link 'man
+(require 'org-man)
